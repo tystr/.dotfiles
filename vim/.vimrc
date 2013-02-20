@@ -12,6 +12,16 @@
 " Enable pathogen
 execute pathogen#infect()
 
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set nocompatible
+set laststatus=2
+set encoding=utf-8
+
+if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+    set t_Co=256
+endif
+" Powerline
+" let g:Powerline_symbols = 'fancy'
 " Set Tabstop
 set tabstop=4
 set smartindent
