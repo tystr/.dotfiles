@@ -36,6 +36,7 @@ fi
 # don't work.
 repos=(
   https://github.com/Lokaltog/vim-easymotion.git
+  https://github.com/ludovicPelle/vim-xdebug
   https://github.com/Lokaltog/vim-powerline.git
   https://github.com/altercation/vim-colors-solarized.git
   https://github.com/docunext/closetag.vim.git
