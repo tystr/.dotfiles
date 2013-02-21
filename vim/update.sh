@@ -35,6 +35,7 @@ fi
 # This is a list of all plugins which are available via Git repos. git:// URLs
 # don't work.
 repos=(
+  https://github.com/rodjek/vim-puppet.git
   https://github.com/Lokaltog/vim-easymotion.git
   https://github.com/ludovicPelle/vim-xdebug
   https://github.com/Lokaltog/powerline.git
