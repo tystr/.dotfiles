@@ -20,3 +20,12 @@
 [difftool]
     tool = vimdiff
     cmd = "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+
+[alias]
+    br = branch
+    co = checkout
+    df = diff
+    lg = log
+    rb = rebase
+    rbi= rebase -i
+    st = status
