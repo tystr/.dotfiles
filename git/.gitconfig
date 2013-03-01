@@ -30,3 +30,4 @@
     rb = rebase
     rbi= rebase -i
     st = status
+    remove-merged-branches = !sh -c 'git branch --merged | grep -v "\\*" | xargs -n 1 git branch -d'
